@@ -16,7 +16,8 @@
     "jquery.easing": "^1.4.1",
     "jquery.stellar": "^0.6.2",
     "modernizr": "^3.12.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
