@@ -14,27 +14,19 @@ import '../styles/css/style.css'
         <div class="container">
           <div class="row">
             <div class="col-xs-2 text-left">
-              <div id="gtco-logo"><a href="index.html">JOHNNY<span>.</span>GENZ</a></div>
+              <div id="gtco-logo"><a href="#">JOHNNY<span>.</span>GENZ</a></div>
             </div>
             <div class="col-xs-10 text-right menu-1">
               <ul>
                 <li class="has-dropdown">
                   <a href="category.html">Music</a>
                   <ul class="dropdown">
-                    <li><a href="#">DJ</a></li>
-                    <li><a href="construction.html">Trending</a></li>
+                    <li><a href="category.html">Profile</a></li>
+                    <li><router-link to="/customizer">Trending</router-link></li>
                     <li><a href="#">Playlist</a></li>
                   </ul>
                 </li>
-
-                <li><a href="category.html">Post</a></li>
-                <li class="has-dropdown">
-                  <a href="category.html">Playground</a>
-                  <ul class="dropdown">
-                    <li><a href="test.html">Test</a></li>
-                  </ul>
-                </li>
-                <li><a href="category.html">Profile</a></li>
+                <li><a target="_blank" href="http://localhost:8080/">定制一个</a></li>
               </ul>
             </div>
           </div>
@@ -71,18 +63,12 @@ import '../styles/css/style.css'
               <ul id="gtco-post-list">
                 <li class="full entry animate-box" data-animate-effect="fadeIn">
                   <a href="single.html">
-                    <div
-                      class="entry-img"
-                      style="
-                        background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg);
-                      "
-                    ></div>
+                    <div class="entry-img" style="background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg)"></div>
                     <div class="entry-desc">
                       <h3>What does this site do?</h3>
                       <p>
-                        Well, this is a purely personal site. It has several sections which you can look around. You can
-                        find the shortcuts on the top right of this site. There are some music that I want to collect
-                        and show, some posts and my profile. Enjoy your trip and the amazing Hong Kong Island picture!
+                        Well, this is a purely personal site. It has several sections which you can look around. You can find the shortcuts on the top right of this site. There are some music that I
+                        want to collect and show, some posts and my profile. Enjoy your trip and the amazing Hong Kong Island picture!
                       </p>
                     </div>
                   </a>
@@ -91,12 +77,7 @@ import '../styles/css/style.css'
 
                 <li class="two-third entry animate-box" data-animate-effect="fadeIn">
                   <a href="single.html">
-                    <div
-                      class="entry-img"
-                      style="
-                        background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg);
-                      "
-                    ></div>
+                    <div class="entry-img" style="background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg)"></div>
                     <div class="entry-desc">
                       <h3>Some DJ stuff - Check it out!</h3>
                       <p>What type of music you wanna see? Hip Hop, House, EDM, Techno......</p>
@@ -106,12 +87,7 @@ import '../styles/css/style.css'
                 </li>
                 <li class="one-third entry animate-box" data-animate-effect="fadeIn">
                   <a href="single.html">
-                    <div
-                      class="entry-img"
-                      style="
-                        background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg);
-                      "
-                    ></div>
+                    <div class="entry-img" style="background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg)"></div>
                     <div class="entry-desc">
                       <h3>Post and note</h3>
                       <p>(Don't click it, cuz I'm lazy)</p>
@@ -134,12 +110,7 @@ import '../styles/css/style.css'
             <div class="col-md-4">
               <div class="post-entry">
                 <div class="post-img">
-                  <a href="#"
-                    ><img
-                      src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg"
-                      class="img-responsive"
-                      alt="mistake here"
-                  /></a>
+                  <a href="#"><img src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg" class="img-responsive" alt="mistake here" /></a>
                 </div>
                 <div class="post-copy">
                   <h4><a href="#">popular</a></h4>
@@ -150,12 +121,7 @@ import '../styles/css/style.css'
             <div class="col-md-4">
               <div class="post-entry">
                 <div class="post-img">
-                  <a href="#"
-                    ><img
-                      src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg"
-                      class="img-responsive"
-                      alt="mistake here"
-                  /></a>
+                  <a href="#"><img src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg" class="img-responsive" alt="mistake here" /></a>
                 </div>
                 <div class="post-copy">
                   <h4><a href="#">popular</a></h4>
@@ -166,12 +132,7 @@ import '../styles/css/style.css'
             <div class="col-md-4">
               <div class="post-entry">
                 <div class="post-img">
-                  <a href="#"
-                    ><img
-                      src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg"
-                      class="img-responsive"
-                      alt="mistake here"
-                  /></a>
+                  <a href="#"><img src="https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg" class="img-responsive" alt="mistake here" /></a>
                 </div>
                 <div class="post-copy">
                   <h4><a href="#">popular</a></h4>
@@ -184,14 +145,8 @@ import '../styles/css/style.css'
           <div class="row copyright">
             <div class="col-md-12 text-center">
               <p>
-                <small class="block"
-                  >&copy; 2020 Johnny.
-                  <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备20007180号-1</a></small
-                >
-                <small class="block"
-                  >By <a href="http://zuanzuan.club/" target="_blank">Johnny</a> Images Source:
-                  <a href="http://unsplash.com/" target="_blank">Unsplash</a></small
-                >
+                <small class="block">&copy; 2020 Johnny. <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备20007180号-1</a></small>
+                <small class="block">By <a href="http://zuanzuan.club/" target="_blank">Johnny</a> Images Source: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
               </p>
               <!-- <p>
                 <ul class="gtco-social-icons">

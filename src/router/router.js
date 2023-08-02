@@ -3,11 +3,11 @@ import HomePage from '../components/HomePage.vue'
 import Customizer from '../components/Customizer.vue'
 // 引入路由各页面配置
 const routes = [
-  // {
-  //   path: '/login',
-  //   name: 'login'
-  //   component: null
-  // },
+  {
+    path: '/customizer',
+    name: 'customizer',
+    component: Customizer
+  },
   {
     path: '/',
     redirect: '/home'
@@ -21,12 +21,12 @@ const routes = [
         path: '/home',
         component: HomePage,
         name: 'home'
-      },
-      {
-        path: '/customizer',
-        component: Customizer,
-        name: 'customizer'
       }
+      // {
+      //   path: '/customizer',
+      //   component: Customizer,
+      //   name: 'customizer'
+      // }
     ]
   }
 ]
