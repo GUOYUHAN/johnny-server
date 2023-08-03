@@ -4,11 +4,13 @@ import '../styles/css/icomoon.css'
 import '../styles/css/bootstrap.css'
 // import '../styles/css/magnific-popup.css'
 import '../styles/css/style.css'
+
+import { watch } from 'vue'
 </script>
 
 <template>
   <div>
-    <!-- <div class="gtco-loader"></div> -->
+    <div class="gtco-loader"></div>
     <div id="page">
       <nav class="gtco-nav" role="navigation">
         <div class="container">
@@ -19,14 +21,14 @@ import '../styles/css/style.css'
             <div class="col-xs-10 text-right menu-1">
               <ul>
                 <li class="has-dropdown">
-                  <a href="category.html">Music</a>
+                  <a>Music</a>
                   <ul class="dropdown">
-                    <li><a href="category.html">Profile</a></li>
-                    <li><router-link to="/customizer">Trending</router-link></li>
-                    <li><a href="#">Playlist</a></li>
+                    <li><a href="/music">Playlist</a></li>
+                    <li><a href="#">TBD</a></li>
+                    <li><a href="#">TBD</a></li>
                   </ul>
                 </li>
-                <li><a target="_blank" href="http://localhost:8080/">定制一个</a></li>
+                <li><a target="_blank" href="https://zuanzuan.club/cust">定制一个</a></li>
               </ul>
             </div>
           </div>
@@ -62,20 +64,27 @@ import '../styles/css/style.css'
             <div class="col-md-12">
               <ul id="gtco-post-list">
                 <li class="full entry animate-box" data-animate-effect="fadeIn">
-                  <a href="single.html">
-                    <div class="entry-img" style="background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg)"></div>
+                  <a href="#">
+                    <div
+                      class="entry-img"
+                      style="
+                        background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_5.png);
+                        background-position: -100px 0;
+                      "
+                    ></div>
                     <div class="entry-desc">
                       <h3>What does this site do?</h3>
                       <p>
-                        Well, this is a purely personal site. It has several sections which you can look around. You can find the shortcuts on the top right of this site. There are some music that I
-                        want to collect and show, some posts and my profile. Enjoy your trip and the amazing Hong Kong Island picture!
+                        Well, this is a purely personal site. It has several sections which you can look around. You can
+                        find the shortcuts on the top right of this site. There are some music, my profile, and a
+                        project that ou can play around. Enjoy your trip and the amazing Hong Kong Island picture!
                       </p>
                     </div>
                   </a>
                   <a href="#" class="post-meta"> Read more <span class="date-posted"></span></a>
                 </li>
 
-                <li class="two-third entry animate-box" data-animate-effect="fadeIn">
+                <!-- <li class="two-third entry animate-box" data-animate-effect="fadeIn">
                   <a href="single.html">
                     <div class="entry-img" style="background-image: url(https://playboi-1319631503.cos.ap-beijing.myqcloud.com/johnny/img_1.jpg)"></div>
                     <div class="entry-desc">
@@ -94,7 +103,7 @@ import '../styles/css/style.css'
                     </div>
                   </a>
                   <a href="single.html" class="post-meta">Go to ... <span class="date-posted"></span></a>
-                </li>
+                </li> -->
               </ul>
             </div>
           </div>
@@ -103,7 +112,7 @@ import '../styles/css/style.css'
 
       <footer id="gtco-footer" role="contentinfo">
         <div class="container">
-          <div class="row row-pb-md">
+          <!-- <div class="row row-pb-md">
             <div class="col-md-12">
               <h3 class="footer-heading">Recommendation</h3>
             </div>
@@ -140,22 +149,28 @@ import '../styles/css/style.css'
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="row copyright">
             <div class="col-md-12 text-center">
               <p>
-                <small class="block">&copy; 2020 Johnny. <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备20007180号-1</a></small>
-                <small class="block">By <a href="http://zuanzuan.club/" target="_blank">Johnny</a> Images Source: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+                <small class="block"
+                  >&copy; {{ new Date().getFullYear() }} Johnny.
+                  <a href="https://beian.miit.gov.cn/" target="_blank">晋ICP备20007180号-1</a></small
+                >
+                <small class="block"
+                  >By <a href="http://zuanzuan.club/">Johnny</a> Images Source:
+                  <a href="http://zuanzuan.club/" target="_blank">Johnny</a></small
+                >
               </p>
-              <!-- <p>
+              <p>
                 <ul class="gtco-social-icons">
-                  <li><a href="https://www.instagram.com/guo_johnny/"><i class="icon-instagram"></i></a></li>
-                  <li><a href="#"><i class="icon-github"></i></a></li>
-                  <li><a href="https://soundcloud.com/user-130855889"><i class="icon-soundcloud"></i></a></li>
-                  <li><a href="https://www.youtube.com/channel/UC304ZS3-RtonKo0ztgX5i-A/featured"><i class="icon-youtube"></i></a></li>
+                  <li><a target="_blank" href="https://www.instagram.com/guo_johnny/"><i class="icon-instagram"></i></a></li>
+                  <li><a target="_blank" href="https://github.com/GUOYUHAN"><i class="icon-github"></i></a></li>
+                  <li><a target="_blank" href="https://soundcloud.com/user-130855889"><i class="icon-soundcloud"></i></a></li>
+                  <li><a target="_blank" href="https://youtube.com/@johnnyguo217"><i class="icon-youtube"></i></a></li>
                 </ul>
-              </p> -->
+              </p>
             </div>
           </div>
         </div>
