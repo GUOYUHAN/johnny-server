@@ -13,24 +13,22 @@ const routes = [
     redirect: '/home'
   },
   {
-    path: '/',
+    path: '/home',
     component: HomePage,
-    name: 'homepage',
-    children: [
-      {
-        path: '/home',
-        component: HomePage,
-        name: 'home',
-        meta: {
-          keepalive: false
-        }
-      }
-      // {
-      //   path: '/customizer',
-      //   component: Customizer,
-      //   name: 'customizer'
-      // }
-    ]
+    name: 'home',
+    meta: {
+      keepalive: false
+    }
+    // children: [
+    //   {
+    //     path: '/home',
+    //     component: HomePage,
+    //     name: 'home',
+    //     meta: {
+    //       keepalive: false
+    //     }
+    //   }
+    // ]
   }
 ]
 

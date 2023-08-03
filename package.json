@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:remote": "vite build && scp -r $(pwd)/dist/*  root@120.53.86.175:/usr/local/nginx/html",
     "preview": "vite preview"
   },
   "dependencies": {

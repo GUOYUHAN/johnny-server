@@ -50,7 +50,7 @@ import { watch } from 'vue'
                 <div class="display-tc animate-box" data-animate-effect="fadeInUp">
                   <span class="date-post">{{ new Date().toLocaleString('en-US', { month: 'long' }) }}, 2023</span>
                   <h1 class="mb30"><a href="#">Hi, this is Johnny's club! What's good today?</a></h1>
-                  <p><a href="https://www.instagram.com/guo_johnny/" class="text-link">Check my profile here</a></p>
+                  <p><a target="_blank" href="https://www.instagram.com/guo_johnny/" class="text-link">Check my profile here</a></p>
                 </div>
               </div>
             </div>
