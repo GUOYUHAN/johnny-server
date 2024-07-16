@@ -28,6 +28,9 @@ import { watch } from 'vue'
                     <li><a href="#">TBD</a></li>
                   </ul>
                 </li>
+                <li>
+                  <a href="/playground">Playground</a>
+                </li>
                 <li><a target="_blank" href="https://zuanzuan.club/cust">定制一个</a></li>
               </ul>
             </div>
